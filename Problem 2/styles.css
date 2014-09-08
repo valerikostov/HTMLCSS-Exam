@@ -1,0 +1,131 @@
+﻿body
+{
+    width: 670px;
+}
+@font-face {
+  font-family: Fairview;
+  src: url('Fairview_Regular.otf');
+}
+header {
+    font-family: Fairview, Helvetica, sans-serif;
+    }
+header section {
+    font-size: 100px;
+    color: white;
+    background-color: #E05E43;
+    text-align: center;
+    font-weight: bolder;
+}
+header section:hover{
+    color:black;
+    cursor:pointer;
+}
+header nav {
+    font-size: 24px;
+    color: #666666;
+    background-color: white;
+    text-align:center;
+    font-weight: 600;
+    margin-top: 7px;
+}
+header nav ul {
+    list-style:none;
+    padding: 0px;
+    margin: 0px;
+}
+header nav ul li {
+    display:inline-block;
+    padding: 3px 10px 3px 10px;
+}
+header nav ul li:nth-of-type(3) {
+    background-color: tomato;
+}
+header nav ul li:hover{
+    color: black;
+    cursor: pointer;
+}
+#main{
+    font-family: Nunito, Arial, sans-serif;
+    width:520px;
+    margin-left: 75px;
+}
+#main h1{
+    font-size: 24px;
+}
+#main h2{
+    font-size: 18px;
+    font-weight: 500;
+    border-bottom:1px solid lightgrey;
+    padding-bottom: 15px;
+}
+#main table{
+    font-size:16px;
+    padding:5px 0px 5px 0px;
+
+}
+#main table tr td {
+    padding-right:30px;
+    padding-bottom: 20px;
+    font-size:16px;
+}
+
+#main table tr:nth-of-type(1){
+    font-weight:800;
+    font-size: 18px;
+}
+
+#main table a{
+    text-decoration-style: dotted;
+    color:#E05E43;
+}
+#main table a:hover{
+    color:black;
+    text-decoration-style:solid;
+}
+footer {
+    background-color: #222222;
+    text-align: center;
+    font-family: Nunito, Arial, sans-serif;
+    
+}
+footer #list ul{
+    list-style: none;
+    color: #AAAAAA;
+    font-size:16px;
+    font-weight:bold;
+    
+}
+footer #list li{
+    display:inline-block;
+    margin-top: 20px;
+    padding: 3px  10px 3px 10px;
+
+}
+footer #info {
+    color: #555555;
+}
+footer #info {
+    font-size:small;
+    border-top:1px solid;
+   
+}
+footer #info li {
+    list-style:none;
+}
+footer #info p {
+    padding-left: 46px;
+    padding-bottom: 15px;
+}
+footer #list li:hover{
+    color: tomato;
+    background-color:#AAAAAA; 
+    cursor: pointer;
+}
+footer #info ul:hover{
+    color: #AAAAAA;
+    cursor: pointer;
+}
+footer #info p:hover{
+    color: #AAAAAA;
+    cursor:crosshair;
+}
